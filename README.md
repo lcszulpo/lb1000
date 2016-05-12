@@ -14,6 +14,8 @@ Confira alguns vídeos que mostram detalhes da impressora:
 
 Para baixar a dll para a impressora LB-1000 acesse o site http://www.bematech.com.br/administrador/files/equipamento/suporte/15/1394146256-Impressora%20de%20etiquetas_LB-1000_Driver_03_Win_DLL.zip.
 
+DLL's, drivers e manuais: http://www.bematech.com.br/suporte/equipamento/lb-1000
+
 ## Confira agora alguns exemplos de programação em Delphi e Visual Basic sobre a LB-1000.
 
 Primeiramente deixe a dll sempre junto com o executável do sistema que está desenvolvendo, assim é mais confiável a questão de que o seu sistema sempre vai buscar diretamente da pasta que esta alocado o executável.
@@ -91,3 +93,9 @@ End Sub
 ```
 
 Com essas rotinas já vai ser possível imprimir etiquetas, para configurar o tamanho dela, sugerimos que verifiquem o manual técnico de programação para as funções: setup, windowsfont, e barcode (para código de barras).
+
+## ACBr 
+
+Existem bibliotecas feitas pela ACBr, que facilitam ou não o desenvolvimento de produtos na direção de diversas impressoras do mercado.
+
+### ACBrETQ
